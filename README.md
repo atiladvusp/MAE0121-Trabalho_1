@@ -1,20 +1,6 @@
 # trabalho_1_estat
 
-[![PyPI - Version](https://img.shields.io/pypi/v/trabalho-1-estat.svg)](https://pypi.org/project/trabalho-1-estat)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trabalho-1-estat.svg)](https://pypi.org/project/trabalho-1-estat)
-
------
-
-## Table of Contents
-
-- [Installation](#installation)
-- [License](#license)
-
-## Installation
-
-```console
-pip install trabalho-1-estat
-```
+Trabalho 1 Estatística MAE0121
 
 ## License
 

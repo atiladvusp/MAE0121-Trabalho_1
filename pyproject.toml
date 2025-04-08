@@ -7,7 +7,7 @@ name = "trabalho-1-estat"
 dynamic = ["version"]
 description = 'trabalho 1 '
 readme = "README.md"
-requires-python = "==3.11"
+requires-python = ">=3.11"
 license = "MIT"
 keywords = []
 authors = [
@@ -32,13 +32,13 @@ path = "src/trabalho_1_estat/__about__.py"
 # [tool.hatch.envs.types.scripts]
 # check = "mypy --install-types --non-interactive {args:src/trabalho_1_estat tests}"
 
-[tool.coverage.run]
-source_pkgs = ["trabalho_1_estat", "tests"]
-branch = true
-parallel = true
-omit = [
-  "src/trabalho_1_estat/__about__.py",
-]
+# [tool.coverage.run]
+# source_pkgs = ["trabalho_1_estat", "tests"]
+# branch = true
+# parallel = true
+# omit = [
+#   "src/trabalho_1_estat/__about__.py",
+# ]
 
 [tool.coverage.paths]
 trabalho_1_estat = ["src/trabalho_1_estat", "*/trabalho-1-estat/src/trabalho_1_estat"]
