@@ -20,7 +20,9 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = ["pandas>=2.0.0", "ipykernel", "openpyxl", "seaborn", "matplotlib", "scipy", "statsmodels"]
+dependencies = ["pandas>=2.0.0",
+ "ipykernel", "openpyxl", "seaborn", "matplotlib", "scipy", "statsmodels",
+ "plotly","nbformat"]
 
 [tool.hatch.version]
 path = "src/trabalho_1_estat/__about__.py"
